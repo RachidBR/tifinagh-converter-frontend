@@ -1,0 +1,15 @@
+.converter {
+  .converter__latinToTifinagh {
+    height: 200px;
+    width: 300px;
+
+    .converter__latinToTifinagh__inputSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-self: center;
+
+      gap: 12px;
+    }
+  }
+}
