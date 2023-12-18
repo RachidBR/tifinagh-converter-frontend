@@ -57,4 +57,5 @@ export default {
 
 ### 18.12.2023
 
-- Added swagger file for the mocked API server endpoints.
+- Added [swagger file](./swagger.json) for the mocked API server endpoints. 
+- Added json server to mock backend.
