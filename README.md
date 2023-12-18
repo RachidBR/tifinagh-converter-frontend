@@ -2,7 +2,7 @@
 
 This is the frontend part for the tifinagh converter project built using React.js with typescript and vite.
 
-# Commands 
+# Commands
 
 Run the app by starting the server with the following command :
 
@@ -10,7 +10,8 @@ Run the app by starting the server with the following command :
 npm run dev
 ```
 
->If are using a MacBook you get an authorization error, use this command instead :
+> If are using a MacBook you get an authorization error, use this command instead :
+
 ```cmd
 sudo npm run dev
 ```
@@ -40,14 +41,20 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Patch notes
+
+### 18.12.2023
+
+- Added swagger file for the mocked API server endpoints.
