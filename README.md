@@ -34,6 +34,12 @@ If you want to run the app on a docker container, dont forget to expose the PORT
 docker run -p 8080:8080 your-docker-image
 ```
 
+## Run tests
+
+
+```cmd
+npm test
+```
 
 
 # React + TypeScript + Vite
