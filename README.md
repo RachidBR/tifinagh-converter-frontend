@@ -4,23 +4,37 @@ This is the frontend part for the tifinagh converter project built using React.j
 
 # Commands
 
-Run the app by starting the server with the following command :
+## Start the dev server :
 
 ```cmd
 npm run dev
 ```
 
-> If are using a MacBook you get an authorization error, use this command instead :
+> If you are using a MacBook and you get an authorization error, use this command instead :
 
 ```cmd
 sudo npm run dev
 ```
+## Start the mock backend
 
+```cmd
+npm run serve-json
+```
+## Start both the front server and the mock backend 
+
+```cmd
+npm run dev-serve-json
+```
+
+
+## Docker container
 If you want to run the app on a docker container, dont forget to expose the PORT using the following command :
 
 ```cmd
 docker run -p 8080:8080 your-docker-image
 ```
+
+
 
 # React + TypeScript + Vite
 
@@ -54,6 +68,10 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 ## Patch notes
+
+### 19.12.2023
+
+- Added routes for mock backend.
 
 ### 18.12.2023
 

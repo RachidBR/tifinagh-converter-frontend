@@ -30,6 +30,17 @@
     { "id": "Y", "result": "ⵢ" },
     { "id": "Z", "result": "ⵣ" },
     { "id": "Zh", "result": "ⵥ" },
+    { "id": "rachid", "result": "ⵔⴰⵛⵉⴷ" },
+    { "id": "Rachid", "result": "ⵔⴰⵛⵉⴷ" },
+    { "id": "RACHID", "result": "ⵔⴰⵛⵉⴷ" },
+
+    { "id": "anselm", "result": "ⴰⵏⵙⴻⵍⵎ" },
+    { "id": "Anselm", "result": "ⴰⵏⵙⴻⵍⵎ" },
+    { "id": "ANSELM", "result": "ⴰⵏⵙⴻⵍⵎ" },
+
+    { "id": "torsten", "result": "ⵜⵓⵔⵙⵜⴻⵏ" },
+    { "id": "Torsten", "result": "ⵜⵓⵔⵙⵜⴻⵏ" },
+    { "id": "TORSTEN", "result": "ⵜⵓⵔⵙⵜⴻⵏ" },
 
     { "id": "a", "result": "ⴰ" },
     { "id": "b", "result": "ⴱ" },
