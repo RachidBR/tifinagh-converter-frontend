@@ -1,0 +1,6 @@
+[
+  {
+    "id": "base",
+    "routes": ["get-latin-to-tifinagh:real"]
+  }
+]
