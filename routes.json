@@ -1,5 +1,4 @@
 {
-    "/converter/tifinagh-to-latin/:text": "/tifinagh-to-latin/:text",
-    "/converter/latin-to-tifinagh/:text": "/latin-to-tifinagh/:text"
-   
-  }
+  "/converter/tifinagh-to-latin/:text": "/tifinagh-to-latin/:text",
+  "/converter/latin-to-tifinagh/:text": "/latin-to-tifinagh/:text"
+}

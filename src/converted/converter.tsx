@@ -23,6 +23,7 @@ export default function Converter() {
           <label htmlFor="latin-to-tifinagh-input">Type your text here :</label>
           <input
             id="latin-to-tifinagh-input"
+            data-testid="latin-to-tifinagh-input"
             type="text"
             title="latin text"
             onChange={onChangeText}
