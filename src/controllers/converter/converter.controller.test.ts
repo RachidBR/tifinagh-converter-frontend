@@ -26,7 +26,7 @@ describe("converterController", () => {
   });
 
   it('should throw an error if the request to the server fails', async () => {
-    const axiosClientMock = vi.spyOn(axiosClient, 'get').mockRejectedValue(new Error('Request failed'));
+    // const axiosClientMock = vi.spyOn(axiosClient, 'get').mockRejectedValue(new Error('Request failed'));
 
     await expect(converterController.getLatinToTifinaghText('latin text')).rejects.toThrowError('Request failed');
   });
