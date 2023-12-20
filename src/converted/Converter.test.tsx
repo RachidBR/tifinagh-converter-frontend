@@ -1,7 +1,7 @@
 // Imports
 import { describe, it, expect, } from 'vitest';
-import Converter from './converted/converter';
 import { render,screen } from '@testing-library/react'
+import Converter from './converter';
 
 // Tests
 describe('Renders main page correctly', async () => {
