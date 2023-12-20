@@ -1,4 +1,4 @@
-# Tifinagh converter
+****# Tifinagh converter
 
 This is the frontend part for the tifinagh converter project built using React.js with typescript and vite.
 
@@ -74,6 +74,10 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 ## Patch notes
+
+### 20.12.2023
+
+- Switched to using mocks-server as mock server instead.
 
 ### 19.12.2023
 
