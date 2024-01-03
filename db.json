@@ -1,0 +1,406 @@
+{
+  "latin-to-tifinagh": [
+    {
+      "id": "A",
+      "result": "ⴰ"
+    },
+    {
+      "id": "B",
+      "result": "ⴱ"
+    },
+    {
+      "id": "G",
+      "result": "ⴳ"
+    },
+    {
+      "id": "D",
+      "result": "ⴷ"
+    },
+    {
+      "id": "Dd",
+      "result": "ⴹ"
+    },
+    {
+      "id": "E",
+      "result": "ⴻ"
+    },
+    {
+      "id": "F",
+      "result": "ⴼ"
+    },
+    {
+      "id": "K",
+      "result": "ⴽ"
+    },
+    {
+      "id": "H",
+      "result": "ⵀ"
+    },
+    {
+      "id": "Hh",
+      "result": "ⵃ"
+    },
+    {
+      "id": "Hn",
+      "result": "ⵅ"
+    },
+    {
+      "id": "Q",
+      "result": "ⵇ"
+    },
+    {
+      "id": "I",
+      "result": "ⵉ"
+    },
+    {
+      "id": "J",
+      "result": "ⵊ"
+    },
+    {
+      "id": "L",
+      "result": "ⵍ"
+    },
+    {
+      "id": "M",
+      "result": "ⵎ"
+    },
+    {
+      "id": "N",
+      "result": "ⵏ"
+    },
+    {
+      "id": "O",
+      "result": "ⵓ"
+    },
+    {
+      "id": "R",
+      "result": "ⵔ"
+    },
+    {
+      "id": "Rr",
+      "result": "ⵕ"
+    },
+    {
+      "id": "Gh",
+      "result": "ⵖ"
+    },
+    {
+      "id": "S",
+      "result": "ⵙ"
+    },
+    {
+      "id": "Ch",
+      "result": "ⵛ"
+    },
+    {
+      "id": "T",
+      "result": "ⵜ"
+    },
+    {
+      "id": "Tt",
+      "result": "ⵟ"
+    },
+    {
+      "id": "V",
+      "result": "ⵠ"
+    },
+    {
+      "id": "W",
+      "result": "ⵡ"
+    },
+    {
+      "id": "Y",
+      "result": "ⵢ"
+    },
+    {
+      "id": "Z",
+      "result": "ⵣ"
+    },
+    {
+      "id": "Zh",
+      "result": "ⵥ"
+    },
+    {
+      "id": "rachid",
+      "result": "ⵔⴰⵛⵉⴷ"
+    },
+    {
+      "id": "Rachid",
+      "result": "ⵔⴰⵛⵉⴷ"
+    },
+    {
+      "id": "RACHID",
+      "result": "ⵔⴰⵛⵉⴷ"
+    },
+    {
+      "id": "anselm",
+      "result": "ⴰⵏⵙⴻⵍⵎ"
+    },
+    {
+      "id": "Anselm",
+      "result": "ⴰⵏⵙⴻⵍⵎ"
+    },
+    {
+      "id": "ANSELM",
+      "result": "ⴰⵏⵙⴻⵍⵎ"
+    },
+    {
+      "id": "torsten",
+      "result": "ⵜⵓⵔⵙⵜⴻⵏ"
+    },
+    {
+      "id": "Torsten",
+      "result": "ⵜⵓⵔⵙⵜⴻⵏ"
+    },
+    {
+      "id": "TORSTEN",
+      "result": "ⵜⵓⵔⵙⵜⴻⵏ"
+    },
+    {
+      "id": "a",
+      "result": "ⴰ"
+    },
+    {
+      "id": "b",
+      "result": "ⴱ"
+    },
+    {
+      "id": "g",
+      "result": "ⴳ"
+    },
+    {
+      "id": "d",
+      "result": "ⴷ"
+    },
+    {
+      "id": "dd",
+      "result": "ⴹ"
+    },
+    {
+      "id": "e",
+      "result": "ⴻ"
+    },
+    {
+      "id": "f",
+      "result": "ⴼ"
+    },
+    {
+      "id": "k",
+      "result": "ⴽ"
+    },
+    {
+      "id": "h",
+      "result": "ⵀ"
+    },
+    {
+      "id": "hh",
+      "result": "ⵃ"
+    },
+    {
+      "id": "hn",
+      "result": "ⵅ"
+    },
+    {
+      "id": "q",
+      "result": "ⵇ"
+    },
+    {
+      "id": "i",
+      "result": "ⵉ"
+    },
+    {
+      "id": "j",
+      "result": "ⵊ"
+    },
+    {
+      "id": "l",
+      "result": "ⵍ"
+    },
+    {
+      "id": "m",
+      "result": "ⵎ"
+    },
+    {
+      "id": "n",
+      "result": "ⵏ"
+    },
+    {
+      "id": "o",
+      "result": "ⵓ"
+    },
+    {
+      "id": "r",
+      "result": "ⵔ"
+    },
+    {
+      "id": "rr",
+      "result": "ⵕ"
+    },
+    {
+      "id": "gh",
+      "result": "ⵖ"
+    },
+    {
+      "id": "s",
+      "result": "ⵙ"
+    },
+    {
+      "id": "ch",
+      "result": "ⵛ"
+    },
+    {
+      "id": "t",
+      "result": "ⵜ"
+    },
+    {
+      "id": "tt",
+      "result": "ⵟ"
+    },
+    {
+      "id": "v",
+      "result": "ⵠ"
+    },
+    {
+      "id": "w",
+      "result": "ⵡ"
+    },
+    {
+      "id": "y",
+      "result": "ⵢ"
+    },
+    {
+      "id": "z",
+      "result": "ⵣ"
+    },
+    {
+      "id": "zh",
+      "result": "ⵥ"
+    },
+    {
+      "id": "123",
+      "result": "hello"
+    }
+  ],
+  "tifinagh-to-latin": [
+    {
+      "id": "ⴰ",
+      "result": "A"
+    },
+    {
+      "id": "ⴱ",
+      "result": "B"
+    },
+    {
+      "id": "ⴳ",
+      "result": "G"
+    },
+    {
+      "id": "ⴷ",
+      "result": "D"
+    },
+    {
+      "id": "ⴹ",
+      "result": "Dd"
+    },
+    {
+      "id": "ⴻ",
+      "result": "E"
+    },
+    {
+      "id": "ⴼ",
+      "result": "F"
+    },
+    {
+      "id": "ⴽ",
+      "result": "K"
+    },
+    {
+      "id": "ⵀ",
+      "result": "H"
+    },
+    {
+      "id": "ⵃ",
+      "result": "Hh"
+    },
+    {
+      "id": "ⵅ",
+      "result": "Hn"
+    },
+    {
+      "id": "ⵇ",
+      "result": "Q"
+    },
+    {
+      "id": "ⵉ",
+      "result": "I"
+    },
+    {
+      "id": "ⵊ",
+      "result": "J"
+    },
+    {
+      "id": "ⵍ",
+      "result": "L"
+    },
+    {
+      "id": "ⵎ",
+      "result": "M"
+    },
+    {
+      "id": "ⵏ",
+      "result": "N"
+    },
+    {
+      "id": "ⵓ",
+      "result": "O"
+    },
+    {
+      "id": "ⵔ",
+      "result": "R"
+    },
+    {
+      "id": "ⵕ",
+      "result": "Rr"
+    },
+    {
+      "id": "ⵖ",
+      "result": "Gh"
+    },
+    {
+      "id": "ⵙ",
+      "result": "S"
+    },
+    {
+      "id": "ⵛ",
+      "result": "Ch"
+    },
+    {
+      "id": "ⵜ",
+      "result": "T"
+    },
+    {
+      "id": "ⵟ",
+      "result": "Tt"
+    },
+    {
+      "id": "ⵠ",
+      "result": "V"
+    },
+    {
+      "id": "ⵡ",
+      "result": "W"
+    },
+    {
+      "id": "ⵢ",
+      "result": "Y"
+    },
+    {
+      "id": "ⵣ",
+      "result": "Z"
+    },
+    {
+      "id": "ⵥ",
+      "result": "Zh"
+    }
+  ]
+}

@@ -15,11 +15,11 @@
     "jsx": "react-jsx",
 
     /* Linting */
-    "strict": true,
+    "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src","src/**/*.ts", "./src/setupTest.ts", "src/**/*.tsx", "json-server-middleware.ts", "mocks.server.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,25 +1,46 @@
-# Tifinagh converter
+****# Tifinagh converter
 
 This is the frontend part for the tifinagh converter project built using React.js with typescript and vite.
 
-# Commands 
+# Commands
 
-Run the app by starting the server with the following command :
+## Start the dev server :
 
 ```cmd
 npm run dev
 ```
 
->If are using a MacBook you get an authorization error, use this command instead :
+> If you are using a MacBook and you get an authorization error, use this command instead :
+
 ```cmd
 sudo npm run dev
 ```
+## Start the mock backend
 
+```cmd
+npm run serve-json
+```
+## Start both the front server and the mock backend 
+
+```cmd
+npm run dev-serve-json
+```
+
+
+## Docker container
 If you want to run the app on a docker container, dont forget to expose the PORT using the following command :
 
 ```cmd
 docker run -p 8080:8080 your-docker-image
 ```
+
+## Run tests
+
+
+```cmd
+npm test
+```
+
 
 # React + TypeScript + Vite
 
@@ -40,14 +61,29 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Patch notes
+
+### 20.12.2023
+
+- Switched to using mocks-server as mock server instead.
+
+### 19.12.2023
+
+- Added routes for mock backend.
+
+### 18.12.2023
+
+- Added [swagger file](./swagger.json) for the mocked API server endpoints. 
+- Added json server to mock backend.

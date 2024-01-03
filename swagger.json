@@ -1,0 +1,74 @@
+{
+    "openapi": "3.0.0",
+    "paths": {
+     
+      "/converter/tifinagh-to-latin/{text}": {
+        "get": {
+          "operationId": "ConverterController_tifinaghToLatin",
+          "summary": "Tifinagh to Latin",
+          "description": "Converts words in tifinagh to latin",
+          "parameters": [
+            {
+              "name": "text",
+              "required": true,
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": ""
+            }
+          },
+          "tags": [
+            "Controller"
+          ]
+        }
+      },
+      "/converter/latin-to-tifinagh/{text}": {
+        "get": {
+          "operationId": "ConverterController_latinToTifinagh",
+          "summary": "Latin to Tifinagh",
+          "description": "Converts words in latin to tifinagh",
+          "parameters": [
+            {
+              "name": "text",
+              "required": true,
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": ""
+            }
+          },
+          "tags": [
+            "Controller"
+          ]
+        }
+      }
+    },
+    "info": {
+      "title": "Tifinagh alphabet converter API",
+      "description": "The API for the Tifinagh alphabet converter app",
+      "version": "1.0",
+      "contact": {}
+    },
+    "tags": [],
+    "servers": [],
+    "components": {
+      "securitySchemes": {
+        "bearer": {
+          "scheme": "bearer",
+          "bearerFormat": "JWT",
+          "type": "http"
+        }
+      },
+      "schemas": {}
+    }
+  }
